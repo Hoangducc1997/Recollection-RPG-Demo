@@ -19879,7 +19879,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3812195111171350084, guid: 2ea098a12a0d04140bb20785d5f0b9aa, type: 3}
       propertyPath: spawnTime
-      value: 1.5
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 4845863746535412174, guid: 2ea098a12a0d04140bb20785d5f0b9aa, type: 3}
       propertyPath: m_Name
@@ -20139,7 +20139,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3812195111171350084, guid: 2ea098a12a0d04140bb20785d5f0b9aa, type: 3}
       propertyPath: spawnTime
-      value: 2
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 4845863746535412174, guid: 2ea098a12a0d04140bb20785d5f0b9aa, type: 3}
       propertyPath: m_Name
