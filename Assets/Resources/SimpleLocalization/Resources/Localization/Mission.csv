@@ -1,2 +1,19 @@
 Key,Vietnamese,English
-MapBoss2.NPC.1.1,Thông tin bản đồ sẽ hiện ở trên đoạn đối thoại giữa chúng ta ,
+Mission,Nhiệm vụ,Mission
+Mission1,Đầu tiên hãy tìm chìa khóa ,"First, find the key"
+Mission2,Hãy tim hòm báu vật,Find the treasure chest
+Mission3,Hãy tiêu diệt tất cả quái vật,Defeat all the enemys
+Mission4,Hãy tiêu diệt tên trùm của bản đồ này,Defeat the boss of this map
+Mission5,Đầu tiên hãy tìm chìa khóa ,"First, find the key"
+Mission6,Hãy tim hòm báu vật màu vàng,Find the golden chest
+Mission7,Hãy tim hòm báu vật màu xanh dương,Find the blue chest
+Mission8,Hãy tiêu diệt tất cả quái vật,Defeat all the enemys
+Mission9,Hãy tiêu diệt tên trùm của bản đồ này,Defeat the boss of this map
+,,
+RunIncrease,TĂNG 1 CHỈ SỐ TỐC ĐỘ CHẠY,Increase 1 point in movement speed
+SwordIncrease,TĂNG 1 CẤP ĐỘ CHO KIẾM,Increase 1 level for the sword
+30HeathIncrease,TĂNG 30 MÁU CHO Khá,Increase 30 health for Khá
+35HeathIncrease,TĂNG 35 MÁU CHO Khá,Increase 35 health for Khá
+BowIncrease,TĂNG 1 CẤP ĐỘ CHO CUNG,Increase 1 level for the bow
+,,
+TutorialEntrance,Hãy đi tìm lối ra!,Go find the exit!

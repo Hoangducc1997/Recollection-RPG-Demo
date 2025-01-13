@@ -12,25 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65824a09e0fc8d448ab4dc2cf967092b, type: 3}
   m_Name: SpeedPlayer
   m_EditorClassIdentifier: 
-  baseMoveSpeed: 2.5
+  baseMoveSpeed: 3
   levelSpeedData:
   - level: 1
-    speedBoost: 2.5
+    speedBoost: 3
   - level: 2
-    speedBoost: 2.8
+    speedBoost: 3.3
   - level: 3
-    speedBoost: 3.2
-  - level: 4
     speedBoost: 3.9
-  - level: 5
+  - level: 4
     speedBoost: 4.5
+  - level: 5
+    speedBoost: 5.4
   - level: 6
-    speedBoost: 5.2
-  - level: 7
-    speedBoost: 6
-  - level: 8
     speedBoost: 6.8
+  - level: 7
+    speedBoost: 7.5
+  - level: 8
+    speedBoost: 8.1
   - level: 9
-    speedBoost: 7.9
+    speedBoost: 9
   - level: 10
-    speedBoost: 8.8
+    speedBoost: 9.8

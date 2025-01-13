@@ -2052,12 +2052,24 @@ PrefabInstance:
       value: KeyForKey
       objectReference: {fileID: 0}
     - target: {fileID: 5913800320256026249, guid: 9b394d266d1dfaa4db875613d130e57e, type: 3}
+      propertyPath: rewardPrefab1
+      value: 
+      objectReference: {fileID: 7561254022069707769, guid: 3a6e55615e99f8c4583ac2a36392da17, type: 3}
+    - target: {fileID: 5913800320256026249, guid: 9b394d266d1dfaa4db875613d130e57e, type: 3}
       propertyPath: spawnOffset.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5913800320256026249, guid: 9b394d266d1dfaa4db875613d130e57e, type: 3}
       propertyPath: spawnOffset.y
       value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5913800320256026249, guid: 9b394d266d1dfaa4db875613d130e57e, type: 3}
+      propertyPath: spawnOffset1.y
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5913800320256026249, guid: 9b394d266d1dfaa4db875613d130e57e, type: 3}
+      propertyPath: spawnOffset2.y
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5913800320256026249, guid: 9b394d266d1dfaa4db875613d130e57e, type: 3}
       propertyPath: appearNextScene
@@ -2164,7 +2176,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6065404996672404234, guid: 5c6d2a625ad428d418c361b8a3102c47, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7755820963871587653, guid: 5c6d2a625ad428d418c361b8a3102c47, type: 3}
       propertyPath: m_LocalPosition.x
@@ -112163,7 +112175,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7344409309873324905, guid: 4827e425a7bb3814daccbfadd3e3d7ca, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7611974883674718684, guid: 4827e425a7bb3814daccbfadd3e3d7ca, type: 3}
       propertyPath: m_IsActive
@@ -124157,6 +124169,18 @@ PrefabInstance:
     - target: {fileID: 5913800320256026249, guid: 9b394d266d1dfaa4db875613d130e57e, type: 3}
       propertyPath: requiredKeyID
       value: KeyForWeapon
+      objectReference: {fileID: 0}
+    - target: {fileID: 5913800320256026249, guid: 9b394d266d1dfaa4db875613d130e57e, type: 3}
+      propertyPath: rewardPrefab1
+      value: 
+      objectReference: {fileID: 7422773949456289986, guid: fb6aad03fa3ce234ebdcc1c30875f32a, type: 3}
+    - target: {fileID: 5913800320256026249, guid: 9b394d266d1dfaa4db875613d130e57e, type: 3}
+      propertyPath: rewardPrefab2
+      value: 
+      objectReference: {fileID: 1051638901493716137, guid: 2ef18b36e86720047baa589d7577d15b, type: 3}
+    - target: {fileID: 5913800320256026249, guid: 9b394d266d1dfaa4db875613d130e57e, type: 3}
+      propertyPath: spawnOffset2.x
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5913800320256026249, guid: 9b394d266d1dfaa4db875613d130e57e, type: 3}
       propertyPath: appearNextScene

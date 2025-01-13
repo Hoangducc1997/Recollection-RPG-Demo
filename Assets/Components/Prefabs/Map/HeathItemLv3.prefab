@@ -156,4 +156,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: 0
-  healthIncreaseAmount: 20
+  healthIncreaseAmount: 25

@@ -3,13 +3,15 @@
 public class Chest : MonoBehaviour
 {
     [SerializeField] private GameObject appearNextScene; // Đối tượng kích hoạt khi mở rương
-    [SerializeField] private Vector3 spawnOffset = new Vector3(0.5f, 2f, 0f); // Tùy chỉnh vị trí spawn
+    [SerializeField] private Vector3 spawnOffset1 = new Vector3(0.5f, 2f, 0f); // Tùy chỉnh vị trí spawn
+    [SerializeField] private Vector3 spawnOffset2 = new Vector3(0.5f, 2f, 0f); // Tùy chỉnh vị trí spawn
     [SerializeField] private string chestID; // ID của chest
 
     private Animator animator;
     private bool isOpened = false;
 
-    public GameObject rewardPrefab; // Phần thưởng khi mở rương
+    public GameObject rewardPrefab1; // Phần thưởng khi mở rương
+    public GameObject rewardPrefab2; // Phần thưởng khi mở rương
     public string requiredKeyID; // ID của khóa cần thiết để mở rương này
 
     void Start()
@@ -61,9 +63,14 @@ public class Chest : MonoBehaviour
         isOpened = true;
         animator.SetTrigger("OpenChest");
 
-        if (rewardPrefab != null)
+        if (rewardPrefab1 != null)
         {
-            Instantiate(rewardPrefab, transform.position + spawnOffset, Quaternion.identity);
+            Instantiate(rewardPrefab1, transform.position + spawnOffset1, Quaternion.identity);
+        }
+
+        if (rewardPrefab2 != null)
+        {
+            Instantiate(rewardPrefab2, transform.position + spawnOffset2, Quaternion.identity);
         }
 
         if (appearNextScene != null)

@@ -20227,6 +20227,10 @@ PrefabInstance:
       value: Key1
       objectReference: {fileID: 0}
     - target: {fileID: 5913800320256026249, guid: 9b394d266d1dfaa4db875613d130e57e, type: 3}
+      propertyPath: rewardPrefab1
+      value: 
+      objectReference: {fileID: 5134913848561947107, guid: 97f86664369237040b57c441bd019fc9, type: 3}
+    - target: {fileID: 5913800320256026249, guid: 9b394d266d1dfaa4db875613d130e57e, type: 3}
       propertyPath: appearNextScene
       value: 
       objectReference: {fileID: 387154304700441998}
