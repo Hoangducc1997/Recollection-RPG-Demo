@@ -17,12 +17,12 @@ MonoBehaviour:
   - Name: BossName
     Id: 1205227674
     TextAsset: {fileID: 4900000, guid: 69cf4b9049f191d4bae8c3b28004b340, type: 3}
-  - Name: Menu
-    Id: 1721203983
-    TextAsset: {fileID: 4900000, guid: cf55c05861a4d264a855e6349bef560e, type: 3}
   - Name: Intro
     Id: 0
     TextAsset: {fileID: 4900000, guid: 7139db2251302234099ff73b57099419, type: 3}
+  - Name: Menu
+    Id: 1721203983
+    TextAsset: {fileID: 4900000, guid: cf55c05861a4d264a855e6349bef560e, type: 3}
   - Name: Pilot
     Id: 258473932
     TextAsset: {fileID: 4900000, guid: 61b31a098fed6dd4eb94314174e724a6, type: 3}
