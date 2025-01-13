@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93663a05b0f750f4282c4581cdb4491c, type: 3}
+  m_Name: Bow3
+  m_EditorClassIdentifier: 
+  weaponName: Bow3
+  level: 3
+  damage: 20
+  rangeAtk: 6.8
+  cooldownTime: 3.2
+  attackDuration: 3.2
+  animationIndex: 5
+  arrowPrefab: {fileID: 5318872819317430418, guid: 61c9be93fa8151446bd1b25ca3f0d9f5, type: 3}
+  arrowSpeed: 4.5

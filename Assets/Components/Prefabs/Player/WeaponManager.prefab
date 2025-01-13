@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7246839302799671502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1063768283841658190}
+  - component: {fileID: 8877873121635830861}
+  - component: {fileID: 5591340246834166046}
+  m_Layer: 0
+  m_Name: WeaponManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1063768283841658190
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7246839302799671502}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8877873121635830861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7246839302799671502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b14b8778d863e884282aa811de82ea6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swordWeapons:
+  - {fileID: 11400000, guid: 6686b77e583defd4098ff5ba2ea72938, type: 2}
+  - {fileID: 11400000, guid: 4bc52078e3ec17f46a0a3722043303b6, type: 2}
+  - {fileID: 11400000, guid: e558b88986c36f14d91be535cf06575a, type: 2}
+  - {fileID: 11400000, guid: 3a720d6e7773a8144a8872494fe7d4b1, type: 2}
+  bowWeapons:
+  - {fileID: 11400000, guid: 408d16391fa457f4d9bb9b734b336de0, type: 2}
+  - {fileID: 11400000, guid: b142c4ac1b2288d44917ec9fe943e9a1, type: 2}
+  - {fileID: 11400000, guid: 481f4fd88d34fc548a5355e58ea46bb6, type: 2}
+  - {fileID: 11400000, guid: f3f3e829b09b4964793abb18338dafd3, type: 2}
+  magicWeapons:
+  - {fileID: 11400000, guid: 26f3c125299b3694baa2fe8fce0e4382, type: 2}
+  - {fileID: 11400000, guid: 9786c3b0119722e4abad8ff55ce2bef1, type: 2}
+  - {fileID: 11400000, guid: fc767f801d1064e40992cb26a58896e9, type: 2}
+  - {fileID: 11400000, guid: cd4e3588198a6554186f06ff86797f39, type: 2}
+  Shieldweapons:
+  - {fileID: 11400000, guid: 4d8b038736e395e40b5caee36fb1df21, type: 2}
+  - {fileID: 11400000, guid: 8eb32a6511477e147b9070e7183acb93, type: 2}
+  - {fileID: 11400000, guid: 6171c80d3154d9b42a8c6d3bba9fe166, type: 2}
+  - {fileID: 11400000, guid: 31ec7e166414b73448c2add4ed4a535e, type: 2}
+  playerAction: {fileID: 0}
+--- !u!114 &5591340246834166046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7246839302799671502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e39c650026fc5bc47989b50d204f695f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponLevelManager: {fileID: 8877873121635830861}

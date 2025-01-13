@@ -1,0 +1,26 @@
+Key,Vietnamese,English
+MainMenu.Start,BẮT ĐẦU,START
+MainMenu.Exit,THOÁT,EXIT
+MainMenu.Setting,CÀI ĐẶT,SETTING
+,,
+MainMenu.MusicSetting,NHẠC,MUSIC
+MainMenu.SoundSetting,ÂM THANH,SOUND
+MainMenu.QualitySetting,CHẤT LƯỢNG ,GAME QUALITY
+MainMenu.QualitySettingLow,THẤP,LOW
+MainMenu.QualitySettingMedium,TRUNG BÌNH,MEDIUM
+MainMenu.QualitySettingHigh,CAO,HIGH
+MainMenu.LanguageSetting,NGÔN NGỮ,LANGUAGE
+MainMenu.SaveSetting,LƯU,SAVE
+,,
+Pause,TẠM DỪNG,PAUSE
+Pause.Save,LƯU,SAVE
+Pause.Setting,CÀI ĐẶT,SETTING
+Pause.Exit,THOÁT,EXIT
+,,
+SkillUpgrade,NÂNG CẤP KỸ NĂNG,Skill Upgrade
+Player.Level,CẤP ĐỘ,LEVEL
+Player.WeaponChoose,CHỌN VŨ KHÍ,CHOOSE WEAPON
+,,
+Kha'sInfo,Thông tin của Khá,Kha's Info
+,,
+DevInfo,Thông tin nhà phát triển,Developer Information
