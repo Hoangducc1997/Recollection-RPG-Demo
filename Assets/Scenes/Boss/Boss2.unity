@@ -5334,13 +5334,13 @@ MonoBehaviour:
   - enemyName: Spider
     enemyPrefab: {fileID: 180270897781036319, guid: 7169f1712ae4edb49b3ba8c1146decbf, type: 3}
     enemyCount: 6
-    enemyTimeSpawn: 3.6
+    enemyTimeSpawn: 2.7
     enemyCountInputs: {fileID: 1721463717}
     enemyCountTotalInputs: {fileID: 1721463716}
   - enemyName: GiantFly
     enemyPrefab: {fileID: 4647132411187873280, guid: ca819315aa342964f9486c87d86411ff, type: 3}
     enemyCount: 6
-    enemyTimeSpawn: 2.7
+    enemyTimeSpawn: 2.5
     enemyCountInputs: {fileID: 1721463715}
     enemyCountTotalInputs: {fileID: 1721463714}
   spawnPoints:
