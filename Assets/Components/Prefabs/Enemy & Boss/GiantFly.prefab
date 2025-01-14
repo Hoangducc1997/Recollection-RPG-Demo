@@ -222,8 +222,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageEnemyAttack: 3
   attackCooldown: 3.6
-  distanceAttack: 4.5
-  minDistanceToPlayer: 3.6
+  distanceAttack: 5.5
+  minDistanceToPlayer: 5
   moveSpeed: 2.7
   bulletPrefab: {fileID: 8481146432629821022, guid: ca5cd31aad9c0374c929c623910388d7, type: 3}
   shootingPoint: {fileID: 3036006369574614889}

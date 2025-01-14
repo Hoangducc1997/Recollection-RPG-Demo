@@ -16,8 +16,8 @@ MonoBehaviour:
   level: 2
   damage: 15
   rangeAtk: 5.5
-  cooldownTime: 3.9
-  attackDuration: 3.9
+  cooldownTime: 3
+  attackDuration: 3
   animationIndex: 5
   arrowPrefab: {fileID: 3482160972571668525, guid: 0ce7eb99a45b06240b7a5050de0fb310, type: 3}
   arrowSpeed: 3.6
